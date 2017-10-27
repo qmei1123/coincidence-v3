@@ -1,0 +1,65 @@
+html {
+    overflow: hidden;
+}
+body {
+    background-image: #000;
+}
+.story-box {
+    position: relative;
+    width: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    top: calc(50% - 200px);
+    left: calc(50% - 200px);
+    font-size: 1.5rem;
+}
+.big-box {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    border-radius: 225px;
+    left: calc(50% - 225px);
+    top: calc(50% - 225px);
+    overflow: hidden;
+}
+.small-box {
+    position: relative;
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+.coincidence-box {
+    position: relative;
+    float: right;
+    width: 7px;
+    height: 7px;
+    background-color: #065A69;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .big-box {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        border-radius: 300px;
+        left: calc(50% - 150px);
+        top: calc(50% - 150px);
+        overflow: hidden;
+    }
+    .small-box {
+        position: relative;
+        float: right;
+        width: 15px;
+        height: 15px;
+    }
+    .story-box {
+        position: relative;
+        width: 300px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        top: calc(50% - 150px);
+        left: calc(50% - 150px);
+        font-size: 1.5rem;
+    }
+}
